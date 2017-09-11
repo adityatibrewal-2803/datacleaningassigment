@@ -10,7 +10,6 @@ The script `run_analysis.R`performs the below activities:
 `UCI HAR Dataset/train/X_train.txt`: Training dataset<br/>
 `UCI HAR Dataset/train/y_train.txt`: Activity codes for respective rows of training data<br/>
 `UCI HAR Dataset/train/subject_train.txt`: Subjects for respective rows of training data<br/>
-<br/>
 `UCI HAR Dataset/test/X_test.txt`: Test dataset<br/>
 `UCI HAR Dataset/test/y_test.txt`: Activity codes for respective rows of test data<br/>
 `UCI HAR Dataset/test/subject_test.txt`: Subjects for respective rows of test data<br/>
@@ -24,7 +23,7 @@ The script `run_analysis.R`performs the below activities:
 * Step 6: Calculating mean based on activity description and subject
 
 * Step 7: Creating the `output` files<br/>
-`wearablesdata.txt`: The cleaned up dataset<br/>
+<b>`wearablesdata.txt`:</b> The cleaned up dataset<br/>
 Key Fields:<br/>
 &nbsp;&nbsp;* activitydescription: Name of the activity being carried out.<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;Character<br/>
@@ -42,7 +41,7 @@ Key Fields:<br/>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;train<br/>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test<br/>
 &nbsp;&nbsp;* The remaining fields contain mean and std values which have been explained in file `features.txt`<br/><br/>
-`wearablesdatameans.txt`: Averages at activity description and subject level<br/>
+<b>`wearablesdatameans.txt`:</b> Averages at activity description and subject level<br/>
 Key Fields:<br/>
 &nbsp;&nbsp;* activitydescription: Name of the activity being carried out.<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;Character<br/>
